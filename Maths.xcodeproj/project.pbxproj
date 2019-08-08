@@ -11,6 +11,7 @@
 		9B07F44A22F4AE8800B29CB5 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07F44922F4AE8800B29CB5 /* AdditionQuestion.m */; };
 		9B07F44D22F9F8F800B29CB5 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07F44C22F9F8F800B29CB5 /* InputHandler.m */; };
 		9B07F45022F9FD4300B29CB5 /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07F44F22F9FD4300B29CB5 /* ScoreKeeper.m */; };
+		9B07F4BB22FC96E200B29CB5 /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07F4BA22FC96E200B29CB5 /* QuestionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		9B07F44C22F9F8F800B29CB5 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
 		9B07F44E22F9FD4300B29CB5 /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
 		9B07F44F22F9FD4300B29CB5 /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
+		9B07F4B922FC96E200B29CB5 /* QuestionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		9B07F4BA22FC96E200B29CB5 /* QuestionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				9B07F44C22F9F8F800B29CB5 /* InputHandler.m */,
 				9B07F44E22F9FD4300B29CB5 /* ScoreKeeper.h */,
 				9B07F44F22F9FD4300B29CB5 /* ScoreKeeper.m */,
+				9B07F4B922FC96E200B29CB5 /* QuestionManager.h */,
+				9B07F4BA22FC96E200B29CB5 /* QuestionManager.m */,
 			);
 			path = Maths;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B07F4BB22FC96E200B29CB5 /* QuestionManager.m in Sources */,
 				9B07F45022F9FD4300B29CB5 /* ScoreKeeper.m in Sources */,
 				9B07F41122F215E400B29CB5 /* main.m in Sources */,
 				9B07F44D22F9F8F800B29CB5 /* InputHandler.m in Sources */,

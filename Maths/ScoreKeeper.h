@@ -10,9 +10,13 @@
 
 
 @interface ScoreKeeper : NSObject
--(NSString *) scoreCount;
-@property (nonatomic, assign) int wrongCount;
-@property (nonatomic, assign) int rightCount;
+@property (nonatomic) NSInteger rightCount;
+@property (nonatomic) NSInteger wrongCount;
+@property (nonatomic, assign) double lastTime;
+@property (nonatomic, assign) double totalTime;
+
+- (void) printScore;
+- (void) printAverageTime;
 @end
 
 

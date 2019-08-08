@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface InputHandler : NSObject
--(NSString *) getInput;
+NSString *getUserInput(NSString *prompt);
 @end
 
 

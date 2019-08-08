@@ -7,23 +7,22 @@
 //
 
 #import "InputHandler.h"
-NSString * getUserInput(int maxLength, NSString *prompt) {
-    NSLog(@"%@ ",prompt);
+@implementation InputHandler
+
+ NSString *getUserInput(NSString *prompt)
+{
+    
+    int maxLength = 255;
+    NSLog(@"%@ ", prompt);
     char inputChars[maxLength];
     char *result = fgets(inputChars, maxLength, stdin);
-    if (result != NULL){
-        NSString *inputStr = [NSString stringWithUTF8String:inputChars];
-        // NSString.sringWithUTF8String(inputChars);
-        
+    
+    if (result != NULL)
+    {
+        NSString *inputStr = [NSString stringWithUTF8String: inputChars];
         return [inputStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-        
     }
+    
     return NULL;
-}
-@implementation InputHandler
--(NSString *) getInput{
-    NSString *input= getUserInput(200, @"");
-    return input;
-  
 }
 @end
